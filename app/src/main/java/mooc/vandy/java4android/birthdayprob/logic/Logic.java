@@ -97,7 +97,7 @@ public class Logic
         Random random = new Random(seed);
 
         for (int i = 0; i < size; i++) {
-            int randomDate = random.nextInt(364);
+            int randomDate = random.nextInt(365);
             if (birthdays.contains(randomDate)) {
                 return true;
             } else {
